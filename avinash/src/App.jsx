@@ -12,11 +12,13 @@ function App() {
     console.log(count)
   }
   const sub=()=>{    //Decreament the vaue
-    count=count-1
-    if(count===0){
+    if(count===1){
       alert("stop")
     }
-    setcount(count)
+    setcount(preCounter => preCounter-1)
+    setcount(preCounter => preCounter-1)
+    setcount(preCounter => preCounter-1)
+    setcount(preCounter => preCounter-1)
     console.log(count)
   }
   return (
@@ -34,3 +36,4 @@ function App() {
   )
 }
 export default App
+
