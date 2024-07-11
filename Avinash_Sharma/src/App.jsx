@@ -4,7 +4,7 @@ import Head from "./componants/header"
 import Mainpage from "./componants/main"
 import Data from "./componants/data"
 import Bharat from "./Bharat/bharat"
-import Itemscon from "./itemcontainer/items"
+// import Itemscon from "./itemcontainer/items"
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Feature/>
       <Data/>
       <Bharat/>
-      <Itemscon/>
+{/*       <Itemscon/> */}
       <Footer/>
     </>
   )
