@@ -14,7 +14,11 @@ function App() {
       <Feature/>
       <Data/>
       <Bharat/>
+<<<<<<< HEAD
       {/* <Itemscon/> */}
+=======
+{/*       <Itemscon/> */}
+>>>>>>> a9cf07a57f37c100616bf1a798b33e4ab5af83cc
       <Footer/>
     </>
   )
