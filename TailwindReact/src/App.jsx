@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Pass from './component/passgen'
+import So from './component/soumya'
 function App() {
   const [color, setColor]= useState("black")
   return (
@@ -8,6 +9,7 @@ function App() {
      <div className='w-full h-screen bg-slate-700 flex justify-center  '
       style={{backgroundColor:color}}
      >
+      <So/>
       <Pass/>
       <div className='fixed bottom-0  mb-20 px-5  py-2 rounded-xl bg-white m-5 '>
         <div className='flex flex-wrap justify-center gap-3'>
